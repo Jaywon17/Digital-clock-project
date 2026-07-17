@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+    color: #1a1a;
+    font-family: 'courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 450px;
+    text-align: center;
+    padding: 100px;
+    border-radius: 30px;
+}
+
+
+#clock {
+    font-size: 80px;
+    letter-spacing: 3px;
+}
